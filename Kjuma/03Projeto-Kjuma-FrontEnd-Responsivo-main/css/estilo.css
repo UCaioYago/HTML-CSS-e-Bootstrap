@@ -1,0 +1,429 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-size: 1em;
+  font-family: "Arial", Helvetica, sans-serif;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+/* mouse over */
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item {
+  margin-right: 2em;
+  font-weight: bolder;
+
+}
+.cabecalho {
+  padding-top: 1%;
+}
+.botao-cabecalho {
+  border: solid 0.1px rgb(116, 116, 116);
+}
+
+.navbar {
+  margin-top: 10px;
+}
+
+.carrinho {
+  text-align: end;
+}
+.carrinho span {
+  margin-right:10px;
+  text-align: center;
+}
+.btn {
+  margin-top: 10px;
+  border-color: rgb(121, 221, 121);
+  background-color: green;
+  text-align: end;
+}
+
+.btn:hover {
+  background-color: rgba(0, 128, 0, 0.877);
+  transition: 0.5s;
+  opacity: 0.7;
+}
+
+
+.menu-item {
+  cursor: pointer;
+  margin-top: 1%;
+  font-weight: bold;
+  color: white;
+  background-color: green;
+  border: solid 1px rgb(121, 221, 121);
+}
+
+.menu-item:hover {
+  background-color: rgb(2, 77, 2);
+  transition: 0.5s;
+  opacity: 2.7;
+}
+
+.carousel {
+  padding-bottom: 0%;
+  padding: 50px;
+}
+
+.carousel-item {
+  text-align: center;
+  flex-direction: row;
+
+}
+
+.banner {
+  text-align: center;
+}
+
+.promocao {
+  margin: 20px;
+}
+
+.postagem {
+  margin: 2em;
+  color: white;
+}
+
+.postagem_pagamento {
+  display: flex;
+  color: white;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.postagem_produtos {
+  cursor: pointer;
+  margin: 5px;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  text-align: center;
+  font-weight: bold;
+  width: 20%;
+}
+
+.img-postagem {
+  width: 100px;
+  height: 100px;
+}
+
+/*Rodapé*/
+.rodape {
+  margin-top: 80px;
+}
+
+.cadastre {
+  text-align: center;
+}
+
+.btn-email {
+  background-color: rgb(37, 174, 230);
+  width: 110px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 0.8em 0em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn-email:hover {
+  transition: 0.9s;
+  background-color: #333;
+}
+
+.copy {
+  background-color: #333;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+/* ATENDIMENTO */
+.faleconosco {
+  text-align: center;
+  color: black;
+  margin: 5%;
+  font-weight: bold;
+}
+
+.formularioContato {
+  max-width: 80%;
+  margin: auto;
+  padding: 1em;
+  margin-top: 5%;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 1px 0px 1.2px 0px #ccc;
+}
+
+.formularioContato label {
+
+  float: left;
+  width: 100%;
+  margin-bottom: 1.2em;
+
+}
+
+.formularioContato span {
+
+  float: left;
+  color: black;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.formularioContato label input {
+
+  color: black;
+  outline: none;
+  border: 1px black solid;
+  border-radius: 4px;
+  padding: 0.6em;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.formularioContato label textarea {
+
+  color: black;
+  outline: none;
+  border: 1px #dee5ed solid;
+  border-radius: 4px;
+  padding: 0.6em;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.formularioContato label input:focus {
+  box-shadow: 0 0 5px 0px rgb(178, 216, 231);
+  border: 1px rgb(37, 174, 230) solid;
+}
+
+.formularioContato label textarea:focus {
+  box-shadow: 0 0 5px 0px rgb(178, 216, 231);
+  border: 1px rgb(37, 174, 230) solid;
+}
+
+.btn-envia {
+  background-color: rgb(37, 174, 230);
+  width: 100%;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 0.8em 0em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn-envia:hover {
+  transition: 0.9s;
+  background-color: #333;
+}
+
+/* FAVORITOS */
+
+.title-favoritos {
+  text-align: center;
+  margin: 8%;
+}
+
+.favoritos {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table thead tr th {
+  padding-bottom: 10px;
+}
+
+table tbody tr {
+  border-bottom: 3px solid #eee;
+  border-top: 3px solid #eee;
+}
+
+table tbody tr td {
+  padding: 20px 0;
+}
+
+
+
+.imagem-fav {
+  border-radius: 6px;
+}
+
+.quantidade-favoritos {
+  display: inline-flex;
+  justify-content: space-around;
+  min-width: 60px;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 30px;
+}
+
+.remove {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.box {
+  margin: 3% 10% 0% 10%;
+}
+
+aside .box .info>div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cupom {
+  font-weight: bold;
+  background: green;
+  border: 2px solid white;
+  display: flex;
+}
+
+.finalizar {
+  padding: 15px 0;
+  background: #28a745;
+  width: 100%;
+  font-weight: bold;
+}
+
+.finalizar:hover {
+  background: #3bc55b;
+}
+
+/*Login*/
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.formLogin {
+  width: 50%;
+  height: 70%;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 7px;
+  padding: 40px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+.formLogin label {
+  display: inline-block;
+  text-align: left;
+  color: black;
+  font-weight: bold;
+  margin: 3%;
+}
+
+.formLogin input {
+  padding: 15px;
+  border: 1px solid #ccc;
+  color: black;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  transition: all linear 160ms;
+  outline: none;
+}
+
+.formLogin input:focus {
+  border: 1px solid rgb(37, 174, 230);
+}
+
+.formLogin a {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #555;
+  transition: all linear 160ms;
+}
+
+/* PRODUTOS */
+.carousel-produtos {
+  text-align: center;
+  margin-top: 2%;
+  width: 40%;
+  height: 100%;
+}
+
+.descrição_produtos {
+  margin: 5% 0% 1% 0%;
+}
+
+.img-prodrutos {
+  width: 100%;
+  height: 300px;
+}
+
+.conteudo-produtos {
+  margin-top: 4%;
+}
+
+/* Janela Modal */
+.modal-dialog {
+  height: 80%;
+  width: 100%;
+}
+
+.modal-content {
+  height: 100%;
+  width: 700px;
+}
+
+.img-modal {
+  height: 70%;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-linha1 {
+  border: solid 2px red;
+  height: 15%;
+}
+
+.modal-linha2 {
+  border: solid 2px rgb(0, 255, 183);
+  height: 15%;
+}
+
+.modal-linha3 {
+  border: solid 2px rgb(0, 128, 21);
+  height: 50%;
+}
+
+.modal-linha4 {
+  border: solid 2px rgb(128, 0, 0);
+  height: 10%;
+}
+
+.modal-linha5 {
+  border: solid 2px rgb(0, 247, 255);
+  height: 10%;
+}
