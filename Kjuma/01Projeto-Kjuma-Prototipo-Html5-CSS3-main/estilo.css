@@ -1,0 +1,219 @@
+/*Limpar formatações padrão*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #3f4142;
+}
+
+/*
+**** Layout ****
+*/
+#area-cabecalho {
+  background-color: #f36e20;
+  padding: 15px;
+  text-align: center;
+}
+
+#area-logo {
+  padding: 10px;
+}
+
+#area-menu {
+  padding: 10px;
+  font-size: 25px;
+}
+
+#area-principal {
+  width: 920px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#area-postagens {
+  width: 660px;
+  float: left;
+}
+
+#area-lateral {
+  width: 240px;
+  float: right;
+}
+
+.postagem {
+  padding: 10px;
+  width: 650px;
+  background: #3f4142;
+}
+
+.section {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  background: #3f4142;
+}
+
+.section1 {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+}
+
+.section2 {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+}
+
+.section3 {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+}
+
+.conteudo-lateral {
+  background: #f7b600;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.postagem-lateral {
+  font-size: 0.8em;
+  padding: 5px;
+  border-bottom: 2px dotted #CCC;
+}
+
+p {
+  color: white;
+}
+
+/*
+**** Formatação do menu ****
+*/
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #f7b600;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#area-cabecalho a:link,
+#area-cabecalho a:visited {
+  color: white;
+  padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+  color: black;
+  background: #FFF;
+  text-decoration: none;
+}
+
+/*
+**** Formatações em geral ****
+*/
+h1 {
+  color: white;
+  font-size: 3.5em;
+}
+
+h2 {
+  color: #f7b600;
+}
+
+h3 {
+  color: white;
+  background: #3f4142;
+  padding: 5px;
+  text-align: center;
+}
+
+.slogan {
+  color: white;
+}
+
+.data-postagem {
+  font-size: 0.8em;
+  border-bottom: 1px solid white;
+  color: #f7b600;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/********** RODAPÉ *********/
+
+.rodape {
+  background-color: #f36e20;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+  font-family: helvetica;
+}
+
+.rodape a {
+  text-decoration: none;
+  color: white;
+}
+
+.rodape p {
+  margin-bottom: 5px;
+}
+
+.rodape-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  align-items: stretch;
+  padding: 30px 20px 10px 80px;
+}
+
+.rodape-div-1,
+.rodape-div-2,
+.rodape-div-3,
+.rodape-div-4 {
+  display: flex;
+  width: calc(100% / 4 - 50px);
+  padding: 10px;
+}
+
+.rodape span {
+  font-size: 30px;
+  color: white;
+}
+
+.rodape-direitos {
+  width: calc(100% - 40px);
+  background-color: black;
+  padding: 20px;
+  margin: 0px;
+  text-align: center;
+}
+
+/*mobile*/
+@media (max-width: 768px) {
+
+  .rodape-div-1,
+  .rodape-div-2,
+  .rodape-div-3,
+  .rodape-div-4 {
+    width: calc(50% - 20px);
+    padding: 10px;
+  }
+
+  .rodape-div {
+    padding: 60px 0px 40px 0px;
+  }
+}
